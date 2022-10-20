@@ -1,0 +1,8 @@
+GET  http://localhost:3001/localhost:3001/HomePage
+Content-Type: application/json
+
+{
+  
+  "userId":1
+
+}

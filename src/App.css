@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000");
+  background-size: 50%;
+background-size: 3.2em;
+background-size: 12px;
+background-size: auto;
+  
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: rgb(236, 11, 157);
+  font-weight: bold;
+  font-style: italic;
+
 }
 
 .App-logo {
@@ -36,3 +49,70 @@
     transform: rotate(360deg);
   }
 }
+.beep{
+border-radius: 25px;
+ border-width: 7px;
+ border-color:black;
+ border-style: groove;
+ margin-left: 555px;
+ margin-right: 555px;
+ padding: 2px;
+  
+  background-color:rgb(27, 27, 2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+  color: rgb(255, 17, 56);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  font-style: oblique;
+ 
+  
+}
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
